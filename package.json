@@ -1,6 +1,6 @@
 {
-  "name": "twitter-api-v2",
-  "version": "1.15.2",
+  "name": "twitter-api-v2-defi",
+  "version": "1.15.4",
   "description": "Strongly typed, full-featured, light, versatile yet powerful Twitter API v1.1 and v2 client for Node.js.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -33,8 +33,8 @@
     "test-plugin": "npm run mocha test/plugin.test.ts",
     "prepublish": "npm run build"
   },
-  "repository": "github:plhery/node-twitter-api-v2",
-  "author": "Paul-Louis Hery <paullouis.hery+twitterapi@gmail.com> (https://twitter.com/plhery)",
+  "repository": "github:artemDeFi/node-twitter-api-v2",
+  "author": "fork of: Paul-Louis Hery <paullouis.hery+twitterapi@gmail.com> (https://twitter.com/plhery)",
   "license": "Apache-2.0",
   "files": [
     "dist"
