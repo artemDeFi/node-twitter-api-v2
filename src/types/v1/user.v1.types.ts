@@ -27,6 +27,7 @@ export interface UserV1 {
   withheld_in_countries: string[];
   withheld_scope: string;
   entities?: UserEntitiesV1;
+  status?: TweetV1;
 
   /** Only on account/verify_credentials with include_email: true */
   email?: string;
