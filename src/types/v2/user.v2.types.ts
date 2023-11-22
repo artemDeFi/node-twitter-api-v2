@@ -97,6 +97,7 @@ export interface UserV2 {
   location?: string;
   url?: string;
   description?: string;
+  most_recent_tweet_id?: string;
   verified?: boolean;
   verified_type?: "none" | "blue" | "business" | "government";
   entities?: {
